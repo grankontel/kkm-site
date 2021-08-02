@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://kkm.grankontel.com",
     title: "KKM site",
+    author: "Thierry Malo",
   },
   plugins: [
     "gatsby-plugin-sass",
