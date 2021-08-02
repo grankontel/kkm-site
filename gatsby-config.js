@@ -3,6 +3,7 @@ module.exports = {
     siteUrl: 'https://kkm.grankontel.com',
     title: 'KKM site',
     author: 'Thierry Malo',
+    description: 'Zouti pou rédé moun maké é korijé kréyòl maké a yo'
   },
   plugins: [
     `gatsby-plugin-image`,

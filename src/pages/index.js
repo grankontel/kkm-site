@@ -11,6 +11,7 @@ import Navigation from '../components/navigation'
 import Page from '../layouts/page'
 import { StaticImage } from 'gatsby-plugin-image'
 import { FaTwitter, FaGithub } from 'react-icons/fa'
+import Seo from '../components/seo'
 const classNames = require('classnames')
 
 const projects = [
@@ -57,6 +58,9 @@ const IndexPage = () => {
   return (
     <Page>
       <Navigation />
+      <Seo title="Donévoulapèn" />
+
+      
       <Container renderAs="main" role="main" pb={4}>
         <Section>
           <Columns>
