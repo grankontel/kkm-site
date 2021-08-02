@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/* ==========================================================================
+SCSS Imports
+========================================================================== */
+
+@import "../../node_modules/bulma/sass/utilities/initial-variables";
+@import "abstracts/variables";
+// @import "abstracts/brands";
+$custom-colors: ("accent": $accent);
+
+@import "../../node_modules/bulma/bulma.sass";
+
+$medium-text: $grey;
+
+@import "components/navbar";
