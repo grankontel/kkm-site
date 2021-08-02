@@ -4,6 +4,7 @@
   "private": true,
   "description": "KKM site",
   "author": "Thierry MALO",
+  "license": " AGPL-3.0-or-later",
   "keywords": [
     "gatsby"
   ],
