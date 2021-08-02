@@ -8,10 +8,11 @@ const IndexPage = () => {
   return (
     <Page>
       <Navigation />
-      <Container renderAs="main" role="main" pt={6}>
+      <Container renderAs="main" role="main" pt={6} pb={4}>
         <Columns>
           <Columns.Column size="three-fifths">
             <StaticImage
+              className="image"
               src="../images/alfons-morales-bibliotek.jpg"
               placeholder="blurred"
               layout="fixed"
