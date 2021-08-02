@@ -1,0 +1,57 @@
+/*! _variables.scss | Bold | TiMalo 2021 */
+
+/* ==========================================================================
+1. Main Colors
+========================================================================== */
+
+$primary: #34678F;
+$secondary: #8B89CC;
+$accent: #EB5E28;
+
+/* ==========================================================================
+2. Global colors
+========================================================================== */
+
+$white: #fff;
+$smoke-white: #fcfcfc;
+$light-white: #f9f9f9;
+
+$placeholder: #cecece;
+$muted-grey: #999;
+$fade-grey: #ededed;
+$widget-grey: #f5f6fa;
+
+$border: darken($fade-grey, 3%);
+
+//$dark-text: #283252;
+$dark-text: #000;
+$medium-text: #757a91;
+$light-text: #a2a5b9;
+
+$danger: #e62965;
+$info: #d4e3f3;
+$success: #06d6a0;
+$warning: #faae42;
+
+$h-purple: #8269B2;
+$h-blue: #37C3FF;
+$h-red: #F92B60;
+$h-orange: #FFA981;
+$h-yellow: #FFD66E;
+$h-green: #93E088;
+$h-pink: #FF9EB8;
+$h-light-blue: #77D2F3;
+
+
+$dark: #344258;
+$dark-sidebar: #232326;
+$dark-dark-text: #aaaab3;
+
+/* ==========================================================================
+3. Fonts
+========================================================================== */
+
+$font: 'Poppins', sans-serif;
+$family-sans-serif: 'Poppins', sans-serif;
+$family-primary: 'Roboto Slab', serif;
+$family-secondary:'Poppins', sans-serif;
