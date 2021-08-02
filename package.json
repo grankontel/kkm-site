@@ -1,12 +1,15 @@
 {
   "name": "kkm-site",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "KKM site",
   "author": "Thierry MALO",
   "keywords": [
     "gatsby"
   ],
+  "engines": {
+    "node": ">=12 <17"
+  },
   "browserslist": [
     ">0.25%",
     "last 2 versions",
