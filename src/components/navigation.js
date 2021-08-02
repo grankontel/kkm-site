@@ -41,7 +41,10 @@ class Navigation extends React.Component {
           <Navbar.Menu renderAs="div" className={navMenu}>
             <Navbar.Container align="right" renderAs="ul">
               <Navbar.Item renderAs="li">
-                <Link to="#projects">Projets</Link>
+                <Link to="#projects">Pwojé</Link>
+              </Navbar.Item>
+              <Navbar.Item renderAs="li">
+                <Link to="#contact">Kontak</Link>
               </Navbar.Item>
             </Navbar.Container>
           </Navbar.Menu>

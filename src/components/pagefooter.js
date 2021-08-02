@@ -3,11 +3,11 @@ import { Container } from 'react-bulma-components'
 
 const PageFooter = () => {
   return (
-    <Container className="mt-8" renderAs="footer">
+    <footer className="has-background-grey-lighter mt-8 py-4">
       <Container className="copyright" textAlign="center" textSize={7}>
         &copy; TiMalo 2021
       </Container>
-    </Container>
+    </footer>
   )
 }
 
