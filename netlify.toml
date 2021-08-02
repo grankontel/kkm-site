@@ -1,0 +1,14 @@
+[build]
+  command = "npm run build"
+  publish = "public"
+  
+[[plugins]]
+package = "netlify-plugin-gatsby-cache"
+
+[dev]
+  command = "npm run develop"
+  port = 8888
+  targetPort = 8000
+  framework = "#custom"
+  publish = "public"
+
