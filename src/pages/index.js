@@ -40,7 +40,7 @@ const ProjectItem = ({ item }) => {
           </Content>
           <div className={btnClass}>
             <a
-              className="is-primary is-small  button"
+              className="is-accent is-small  button"
               href={item.link}
               target="_blank"
               rel="noreferrer"
