@@ -1,4 +1,5 @@
 import React from 'react'
+import { StaticQuery, graphql } from 'gatsby'
 import {
   Card,
   Columns,
@@ -14,14 +15,37 @@ import { FaTwitter, FaGithub } from 'react-icons/fa'
 import Seo from '../components/seo'
 const classNames = require('classnames')
 
-const projects = [
-  {
-    title: 'Règlèman a Grankontel',
-    description:
-      'Règlèman a korèksyon Grankontel ni pou korijé tout liv ki ka parèt.',
-    link: 'https://korije-kreyol-make.readthedocs.io/fr/latest/',
-  },
-]
+const ProjectList = () => {
+  return (
+    <StaticQuery
+      query={graphql`
+        query MyQuery {
+          projects: allProjectsJson {
+            edges {
+              node {
+                id
+                title
+                description
+                link
+                repo
+              }
+            }
+          }
+        }
+      `}
+      render={(data) => {
+        const projects = data.projects.edges
+        return (
+          <Columns>
+            {projects.map((project, index) => (
+              <ProjectItem key={index} item={project.node} />
+            ))}
+          </Columns>
+        )
+      }}
+    />
+  )
+}
 const ProjectItem = ({ item }) => {
   const btnClass = classNames({
     buttons: true,
@@ -40,6 +64,19 @@ const ProjectItem = ({ item }) => {
             <p className="text-medium rem-80">{item.description}</p>
           </Content>
           <div className={btnClass}>
+            {item.repo && (
+              <a
+                className="button is-small is-light"
+                href={item.repo}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className="icon">
+                  <FaGithub />
+                </span>
+                <span>GitHub</span>
+              </a>
+            )}
             <a
               className="is-accent is-small  button"
               href={item.link}
@@ -60,7 +97,6 @@ const IndexPage = () => {
       <Navigation />
       <Seo title="Donévoulapèn" />
 
-      
       <Container renderAs="main" role="main" pb={4}>
         <Section>
           <Columns>
@@ -90,11 +126,7 @@ const IndexPage = () => {
           >
             Pwojé
           </Heading>
-          <Columns>
-            {projects.map((project, index) => (
-              <ProjectItem key={index} item={project} />
-            ))}
-          </Columns>
+          <ProjectList />
         </Section>
 
         <Section>
@@ -103,27 +135,27 @@ const IndexPage = () => {
           </Heading>
           <Columns multiline tablet>
             <Columns.Column size="one-third" flexDirection="row">
-                <div className="is-flex is-flex-direction-row">
-                  <a
-                    className="level-item footer-link"
-                    href="https://twitter.com/timalo_officiel"
-                    target="rs_timalo"
-                    aria-label="Connect to TiMalo on Twitter"
-                  >
-                    <FaTwitter /> &nbsp;@timalo_officiel
-                  </a>
-                </div>
+              <div className="is-flex is-flex-direction-row">
+                <a
+                  className="level-item footer-link"
+                  href="https://twitter.com/timalo_officiel"
+                  target="rs_timalo"
+                  aria-label="Connect to TiMalo on Twitter"
+                >
+                  <FaTwitter /> &nbsp;@timalo_officiel
+                </a>
+              </div>
 
-                <div className="is-flex is-flex-direction-row">
-                  <a
-                    className="level-item footer-link"
-                    href="https://github.com/tmalo"
-                    target="rs_timalo"
-                    aria-label="Connect to TiMalo on GitHub"
-                  >
-                    <FaGithub /> &nbsp;@tmalo
-                  </a>
-                </div>
+              <div className="is-flex is-flex-direction-row">
+                <a
+                  className="level-item footer-link"
+                  href="https://github.com/tmalo"
+                  target="rs_timalo"
+                  aria-label="Connect to TiMalo on GitHub"
+                >
+                  <FaGithub /> &nbsp;@tmalo
+                </a>
+              </div>
             </Columns.Column>
           </Columns>
         </Section>

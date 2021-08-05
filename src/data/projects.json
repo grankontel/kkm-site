@@ -1,0 +1,13 @@
+[
+  {
+    "title": "Règlèman a Grankontel",
+    "description": "Règlèman a korèksyon Grankontel ni pou korijé tout liv ki ka parèt.",
+    "link": "https://korije-kreyol-make.readthedocs.io/fr/latest/"
+  },
+  {
+    "title": "Zakari Web",
+    "description": "On aplikasyon pou korijé lòwtograf a mo kréyòl.",
+    "repo": "https://github.com/grankontel/zakari-nextjs",
+    "link": "https://zakari.make-kreyol.com/"
+  }
+]
