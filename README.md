@@ -1,54 +1,174 @@
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+
+
+
+<!-- PROJECT LOGO -->
+<br />
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
+
+
+  <h3 align="center">Korijé Kréyòl Maké</h3>
+
+  <p align="center">
+    project_description
+    <br />
+    <a href="https://github.com/grankontel/kkm-site"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/grankontel/kkm-site">View Demo</a>
+    ·
+    <a href="https://github.com/grankontel/kkm-site/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/grankontel/kkm-site/issues">Request Feature</a>
+  </p>
 </p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
 
-## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
 
-2.  **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+This project is the website presenting the tools created to help write better kreyol.
 
-3.  **Open the code and start customizing!**
+### Built With
 
-    Your site is now running at http://localhost:8000!
+* [GatsbyJS](https://www.gatsbyjs.com/)
+* [Bulma](https://bulma.io/)
+* []()
 
-    Edit `src/pages/index.js` to see your site update in real-time!
 
-4.  **Learn more**
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+<!-- GETTING STARTED -->
+## Getting Started
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+To get a local copy up and running follow these simple steps.
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+### Prerequisites
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+### Installation
 
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+1. Clone the repo
+   ```sh
+   git clone https://github.com/grankontel/kkm-site.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
 
-## 🚀 Quick start (Gatsby Cloud)
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+<!-- USAGE EXAMPLES -->
+## Usage
+
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+_For more examples, please refer to the [Documentation](https://example.com)_
+
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+See the [open issues](https://github.com/grankontel/kkm-site/issues) for a list of proposed features (and known issues).
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Thierry Malo - [@timalo_officiel](https://twitter.com/timalo_officiel) - email
+
+Project Link: [https://github.com/grankontel/kkm-site](https://github.com/grankontel/kkm-site)
+
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+
+* []()
+* []()
+* []()
+
+
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/grankontel/kkm-site.svg?style=for-the-badge
+[contributors-url]: https://github.com/grankontel/kkm-site/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/grankontel/kkm-site.svg?style=for-the-badge
+[forks-url]: https://github.com/grankontel/repo/network/members
+[stars-shield]: https://img.shields.io/github/stars/grankontel/kkm-site.svg?style=for-the-badge
+[stars-url]: https://github.com/grankontel/kkm-site/stargazers
+[issues-shield]: https://img.shields.io/github/issues/grankontel/kkm-site.svg?style=for-the-badge
+[issues-url]: https://github.com/grankontel/kkm-site/issues
+[license-shield]: https://img.shields.io/github/license/grankontel/kkm-site.svg?style=for-the-badge
+[license-url]: https://github.com/grankontel/kkm-site/blob/master/LICENSE
