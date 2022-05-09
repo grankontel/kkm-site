@@ -6,9 +6,9 @@
     "link": "https://korije-kreyol-make.readthedocs.io/fr/latest/"
   },
   {
-    "title": "Zakari Web",
+    "title": "Kreyolopal",
     "description": "On aplikasyon ka sèvi épi on API pou korijé lòwtograf a mo kréyòl.",
-    "repo": "https://github.com/grankontel/zakari-nextjs",
-    "link": "https://zakari.make-kreyol.com/"
+    "repo": "https://github.com/grankontel/kreyolopal",
+    "link": "https://kreyol.herokuapp.com/"
   }
 ]
