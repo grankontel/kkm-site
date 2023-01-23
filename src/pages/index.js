@@ -10,14 +10,12 @@ import Navigation from '../components/navigation'
 import Page from '../layouts/page'
 import { StaticImage } from 'gatsby-plugin-image'
 import { FaTwitter, FaGithub } from 'react-icons/fa'
-import Seo from '../components/seo'
 import ProjectList from '../components/projectList'
 
 const IndexPage = () => {
   return (
     <Page>
       <Navigation />
-      <Seo title="Donévoulapèn" />
 
       <Container renderAs="main" role="main" pb={4}>
         <Section>
